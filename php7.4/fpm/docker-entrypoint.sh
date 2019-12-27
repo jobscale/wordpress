@@ -287,4 +287,5 @@ EOPHP
 	done
 fi
 
-exec "$@"
+# exec "$@"
+php -S 0.0.0.0:8000
